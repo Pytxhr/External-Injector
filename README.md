@@ -1,4 +1,4 @@
-# PG3D-Injector
+# Injector
 - writing into android application lib.so with offset &amp; hex bytes <br />
 - support root and non root devices
 
@@ -9,13 +9,11 @@
 - If you have root make sure you grant the RootAccess.
 - If you're non root user then make sure you're using any virtual app with root that works.
 - open the debug/injector
-- Open the original game (Example: Open Pixel Gun 3D so the Debug can target the PID).
+- Open the original game
 - click Inject
 - logs should say true, means working, if false then either root isn't granted or you broke something.
 - done
 
-This is one of my projects that I had been working during summer. The PG3D Injector. This does not have to be PG3D.
-This project can work for any games instead of Pixel Gun 3D. 
 It doesn't contain any c++, but java/kotlin. You can find everything inside MainActivity.kt
 
 This is an alternative way to inject mods inside the game instead of implementing your mod menus, making the game having signature checks and causing some integrity checks.
